@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+model-viewer {
+  width: 600px;
+  height: 400px;
+  background-color: #FFFFFF;
+}
+model-viewer#reveal {
+    --poster-color: transparent;
+}
+</style>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<model-viewer
+ar
+ar-modes="scene-viewer webxr quick-look"
+src="./α-D-glucose.glb"
+alt="α-D-glucose"
+camera-controls
+></model-viewer>
+</body>
+</html>
