@@ -3,28 +3,71 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <title>Webページのタイトル</title>
+    <title>リモネン</title>
   </head>
   <style>
     .box{
       display: inline-block;
-      width:200px;
-      height:100px;
+      width:900px;
+      height:400px;
     }
     .box1{
-      background-color: chartreuse;
+      background-color: rgb(255, 255, 255);
+    }
     }
     .box2{
-      background-color: rgb(0, 47, 255);
-    }
-    .box3{
-      background-color: rgb(255, 81, 0);
+      background-color: rgb(255, 255, 255);
     }
   </style>
 <body>
-  <div class="box box1"></div>
-  <div class="box box2"></div>
-  <div class="box box3"></div>
-  <div class="box box3"></div>
+  <div class="box box1">
+    <style>
+
+model-viewer {
+  width: 900px;
+  height: 800px;
+  background-color: #FFFFFF;
+}
+ 
+model-viewer#reveal {
+    --poster-color: transparent;
+}
+  display: inline-block;
+
+</style>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<model-viewer
+ar
+ar-modes="scene-viewer webxr quick-look"
+src="./l-limonene.glb"
+alt="l-limonene"
+
+camera-controls
+></model-viewer></div>
+  <div class="box box2"><style>
+model-viewer {
+  width: 900px;
+  height: 800px;
+  background-color: #FFFFFF;
+}
+model-viewer#reveal {
+    --poster-color: transparent;
+}
+
+</style>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<model-viewer
+ar
+ar-modes="scene-viewer webxr quick-look"
+src="./l-limonene.glb"
+alt="l-limonene"
+
+camera-controls
+></model-viewer></div>
   </body>
 </html>
+
