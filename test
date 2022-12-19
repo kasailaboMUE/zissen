@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Webページのタイトル</title>
+  </head>
+  <style>
+    .box{
+      display: inline-block;
+      width:200px;
+      height:100px;
+    }
+    .box1{
+      background-color: chartreuse;
+    }
+    .box2{
+      background-color: rgb(0, 47, 255);
+    }
+    .box3{
+      background-color: rgb(255, 81, 0);
+    }
+  </style>
+<body>
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+  <div class="box box3"></div>
+  </body>
+</html>
