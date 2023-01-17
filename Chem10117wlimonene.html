@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>リモネン</title>
+  </head>
+  <style>
+    .box{
+      display: inline-block;
+      width:450px;
+      height:500px;
+    }
+    .box1{
+      background-color: rgb(255, 255, 255);
+    }
+    }
+    .box2{
+      background-color: rgb(255, 0, 255);
+   
+       } 
+    }
+    
+  </style>
+<body>
+  <div class="box box1">
+    <style>
+
+model-viewer {
+  width: 40vw;
+  height: 40vw;
+  background-color: #FFFFFF;
+}
+ 
+model-viewer#reveal {
+    --poster-color: transparent;
+}
+  display: inline-block;
+
+</style>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<model-viewer
+ar
+ar-modes="scene-viewer webxr quick-look"
+src="./l-limonene.glb"
+alt="l-limonene"
+(+)-リモネン
+camera-controls
+></model-viewer></div>
+  <div class="box box2"><style>
+model-viewer {
+   width: 40vw;
+  height: 40vw;
+  background-color: #FFFFFF;
+}
+model-viewer#reveal {
+    --poster-color: transparent;
+}
+
+</style>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<model-viewer
+ar
+ar-modes="scene-viewer webxr quick-look"
+src="./d-limonene.glb"
+alt="d-limonene"
+(-)-リモネン
+camera-controls
+></model-viewer></div>
+  </body>
+</html>
+
